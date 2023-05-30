@@ -67,8 +67,8 @@ class ViewController: UIViewController {
             greenTrafficLight.alpha =  lightIsOff
             redTrafficLight.alpha  = lightIsOff
             
-            
         } else {
+            
             if  yellowTrafficLight.alpha  == lightIsOn {
                 redTrafficLight.alpha = lightIsOff
                 greenTrafficLight.alpha =  lightIsOn
