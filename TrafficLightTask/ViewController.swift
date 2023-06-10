@@ -78,7 +78,7 @@ class ViewController: UIViewController {
                 
                 if greenTrafficLight.alpha  == lightIsOn {
                     redTrafficLight.alpha  = lightIsOn // переключение без паузы
-                    //  redTrafficLight.alpha = lightIsOff // переключение с паузой
+                    // redTrafficLight.alpha = lightIsOff // переключение с паузой
                     yellowTrafficLight.alpha =  lightIsOff
                     greenTrafficLight.alpha  = lightIsOff
                 } else {
