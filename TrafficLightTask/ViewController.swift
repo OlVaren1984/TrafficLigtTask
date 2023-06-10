@@ -85,7 +85,7 @@ class ViewController: UIViewController {
                     redTrafficLight.alpha  = lightIsOn
                 }
             }
-            
+            // test commit
         }
     }
 }
